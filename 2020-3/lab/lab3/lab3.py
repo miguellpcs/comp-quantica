@@ -35,3 +35,11 @@ def oraculo_trivial(n, k):
 def grover(oraculo):
     k = {}
     return k
+
+def questao3():
+    '''
+    Em um computador clássico o custo é O(n), pois primeiro se itera sob o vetor todo para tirar a média e depois 
+    se itera novamente sobre o mesmo para calcular a inversão sob a media de cada elemnto do vetor.
+    Em um computador quantico o custo é O(1), pois é apenas a aplicação de um operador.
+    '''
+    pass
